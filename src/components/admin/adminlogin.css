@@ -1,0 +1,40 @@
+.adminPage {
+  background-image: url(../../assets//admin_bg.jpg);
+  height: 650px;
+  background-size: cover;
+}
+.admin_Form {
+  display: block;
+  backdrop-filter: blur(10px);
+  margin: auto;
+  width: 25vw;
+  margin-top: 8.5%;
+  border: 3px 3px 6px solid whirgb(151, 73, 73);
+  border-radius: 5%;
+}
+.form-label {
+  color: white;
+}
+.admin_logo img {
+  display: block;
+  width: 15%;
+  margin: auto;
+  background-color: white;
+  border-radius: 50%;
+}
+span {
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .PhoneWidthForm {
+    width: 70%;
+    margin-top: 30%;
+    backdrop-filter: blur(10px);
+    box-shadow: none;
+  }
+  .adminPage {
+    background-image: url(../../assets/log_bg.jpg);
+    height: 93.7vh;
+    background-size: cover;
+  }
+}

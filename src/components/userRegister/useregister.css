@@ -1,0 +1,26 @@
+.registerPage {
+  background-image: url(../../assets/reg_bg.jpg);
+  height: 100vh;
+}
+.register_Form {
+  display: block;
+  margin: auto;
+  width: 30vw;
+  margin-top: 2.5%;
+  border: 3px 3px 6px solid whirgb(151, 73, 73);
+  backdrop-filter: blur(5px);
+  padding: 1.3%;
+  border-radius: 2%;
+}
+@media only screen and (max-width: 600px) {
+  .PhoneWidthForm {
+    width: 70%;
+    margin-top: 30%;
+    backdrop-filter: blur(10px);
+  }
+  .registerPage {
+    background-image: url(../../assets/log_bg.jpg);
+    height: 93.7vh;
+    background-size: cover;
+  }
+}

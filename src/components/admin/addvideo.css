@@ -1,0 +1,13 @@
+.bg {
+  background-image: url(../../assets/video_Pagebg.jpg);
+  height: 100vh;
+  background-size: cover;
+  color: white;
+}
+.blur {
+  backdrop-filter: blur(5px);
+  height: 95vh;
+}
+.AddVform-label {
+  color: black;
+}

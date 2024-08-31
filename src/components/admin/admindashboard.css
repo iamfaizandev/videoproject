@@ -1,0 +1,5 @@
+.bg {
+  background-image: url(../../assets/admin_bg.jpg);
+  height: 100vh;
+  background-size: cover;
+}

@@ -1,0 +1,13 @@
+.editVideo {
+  background-image: url(../../assets/videobg.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.editForm {
+  display: block;
+  margin: auto;
+  width: 25vw;
+}
+.Vform-label {
+  color: black;
+}

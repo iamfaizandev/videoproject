@@ -1,0 +1,23 @@
+.homePage {
+  background-image: url(../../assets/background.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+.main {
+  margin-top: 13%;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .homePage {
+    background-image: url(../../assets/background.jpg);
+    height: 94vh;
+    width: 100vw;
+    /* background-size: cover; */
+  }
+  .main {
+    backdrop-filter: blur(5px);
+    margin-top: 60%;
+    padding: 3%;
+  }
+}
